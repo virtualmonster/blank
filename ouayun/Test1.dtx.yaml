@@ -1,0 +1,57 @@
+note: Generated from recorded traffic using edge 142.0.3595.94
+configuration:
+  profile: edge
+  vars:
+    APP_ouayun_URL: https://shop.ouayun.com/th
+steps:
+  - open:
+      note: Open ouayun
+      url: '${APP_ouayun_URL}'
+  - with:
+      note: OUAY-UN ONLINE STORE
+      steps:
+        - click:
+            shot: OUAY-UN ONLINE STORE_fnpm2p.dti.jpeg#414
+            object: html.span
+            identifiers:
+              - properties:
+                  - content:
+                      - val: การสั่งซื้อของฉัน
+  - with:
+      note: เข้าสู่ระบบ - OUAY-UN ONLINE STORE
+      steps:
+        - click:
+            shot: เข้าสู่ระบบ - OUAY-UN ONLINE STORE_qxdts3.dti.jpeg#143
+            object: html.span
+            identifiers:
+              - properties:
+                  - content:
+                      - val: OUAY-UN ONLINE STORE
+  - with:
+      note: '[ชุดพิเศษ 3 ชิ้น] อ้วยอันโอสถ เฮอร์บัลวัน Garlic กระเทียมสกัด - OUAY-UN
+        ONLINE STORE'
+      steps:
+        - click:
+            shot: '[ชุดพิเศษ 3 ชิ้น] อ้วยอันโอสถ เฮอร์บัลวัน Garlic_xrcrv2.dti.jpeg#940'
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: เพิ่มสินค้าลงตะกร้า
+        - click:
+            shot: '[ชุดพิเศษ 3 ชิ้น] อ้วยอันโอสถ เฮอร์บัลวัน Garlic_332mgj.dti.jpeg#1571'
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: สั่งซื้อสินค้าในตะกร้า
+  - with:
+      note: เข้าสู่ระบบ - OUAY-UN ONLINE STORE
+      steps:
+        - click:
+            shot: เข้าสู่ระบบ - OUAY-UN ONLINE STORE_ftyo6v.dti.jpeg#143
+            object: html.span
+            identifiers:
+              - properties:
+                  - content:
+                      - val: OUAY-UN ONLINE STORE

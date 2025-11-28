@@ -1,0 +1,52 @@
+note: Generated from recorded traffic using edge 142.0.3595.94
+configuration:
+  profile: edge
+  vars:
+    APP_thai_chars_URL: https://commons.wikimedia.org/wiki/Category%3AFiles_of_Thailand_with_bad_file_names
+steps:
+  - open:
+      note: Open thai chars
+      url: '${APP_thai_chars_URL}'
+  - with:
+      note: Category:Files of Thailand with bad file names - Wikimedia Commons
+      steps:
+        - click:
+            shot: Category_Files of Thailand with bad file names -_ecjqi7.dti.jpeg#4246
+            object: html.a
+            identifiers:
+              - properties:
+                  - content:
+                      - val: D85 6550 หนานเฉาเหว่ย bitterleaf tree Photographed by
+                          Trisorn Triboon.jpg
+  - with:
+      note: File:D85 6550 หนานเฉาเหว่ย bitterleaf tree Photographed by Trisorn Triboon.jpg
+        - Wikimedia Commons
+      steps:
+        - click:
+            shot: File_D85 6550 หนานเฉาเหว่ย bitterleaf tree Photo_k7llzy.dti.jpeg#4748
+            object: html.span
+            identifiers:
+              - properties:
+                  - content:
+                      - val: D85 6550 หนานเฉาเหว่ย bitterleaf tree Photographed by
+                          Trisorn Triboon.jpg
+            use: double_click
+        - click:
+            shot: File_D85 6550 หนานเฉาเหว่ย bitterleaf tree Photo_k5xk2x.dti.jpeg#6121
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/D85_6550_%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%B2%E0%B9%80%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%A2_bitterleaf_tree_Photographed_by_Trisorn_Triboon.jpg/500px-D85_6550_%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%B2%E0%B9%80%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%A2_bitterleaf_tree_Photographed_by_Trisorn_Triboon.jpg?20180713211736
+  - with:
+      note: D85_6550_หนานเฉาเหว่ย_bitterleaf_tree_Photographed_by_Trisorn_Triboon.jpg
+        (5504×8256)
+      steps:
+        - click:
+            shot: D85_6550_หนานเฉาเหว่ย_bitterleaf_tree_Photograph_yxpk2m.dti.jpeg#5
+            object: html.body
+            identifiers:
+              - properties:
+                  - title:
+                      - val: D85_6550_หนานเฉาเหว่ย_bitterleaf_tree_Photographed_by_Trisorn_Triboon.jpg
+                          (5504×8256)
